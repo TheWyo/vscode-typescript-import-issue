@@ -1,0 +1,78 @@
+[2021-10-28 16:45:25.648] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-10-28 16:45:25.648] [exthost] [error] Error: <semantic> TypeScript Server Error (4.4.3)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at getCompletionEntryCodeActionsAndSourceDisplay (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:126516:22)
+    at Object.getCompletionEntryDetails (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:126472:30)
+    at Proxy.getCompletionEntryDetails (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:156798:35)
+    at c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168262:57
+    at Object.mapDefined (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:616:30)
+    at IOSession.Session.getCompletionEntryDetails (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168260:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:167087:61)
+    at c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168880:88
+    at IOSession.Session.executeWithRequestId (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168871:28)
+    at IOSession.Session.executeCommand (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168880:33)
+    at IOSession.Session.onMessage (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168906:35)
+    at Interface.<anonymous> (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:171511:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:337:10)
+    at Interface._normalWrite (readline.js:482:12)
+    at Socket.ondata (readline.js:194:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+	at Function.create (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:459856)
+	at dispatchResponse (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:453692)
+	at dispatchMessage (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:452549)
+	at c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:452034
+	at a.fire (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:66:1712)
+	at m.onLengthData (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:462785)
+	at Socket.<anonymous> (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:462432)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-10-28 16:45:28.097] [exthost] [error] Error: <semantic> TypeScript Server Error (4.4.3)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at getCompletionEntryCodeActionsAndSourceDisplay (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:126516:22)
+    at Object.getCompletionEntryDetails (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:126472:30)
+    at Proxy.getCompletionEntryDetails (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:156798:35)
+    at c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168262:57
+    at Object.mapDefined (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:616:30)
+    at IOSession.Session.getCompletionEntryDetails (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168260:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:167087:61)
+    at c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168880:88
+    at IOSession.Session.executeWithRequestId (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168871:28)
+    at IOSession.Session.executeCommand (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168880:33)
+    at IOSession.Session.onMessage (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:168906:35)
+    at Interface.<anonymous> (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\node_modules\typescript\lib\tsserver.js:171511:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:337:10)
+    at Interface._normalWrite (readline.js:482:12)
+    at Socket.ondata (readline.js:194:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+	at Function.create (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:459856)
+	at dispatchResponse (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:453692)
+	at dispatchMessage (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:452549)
+	at c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:452034
+	at a.fire (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:66:1712)
+	at m.onLengthData (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:462785)
+	at Socket.<anonymous> (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\typescript-language-features\dist\extension.js:1:462432)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23) _typescript.applyCompletionCommand
+[2021-10-28 16:45:28.097] [exthost] [error] Error: Running the contributed command: '_typescript.applyCompletionCommand' failed.
+	at l._executeContributedCommand (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:94:111812)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async l._executeContributedCommand (c:\Users\russell\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:94:111644) _typescript.applyCompletionCommand
